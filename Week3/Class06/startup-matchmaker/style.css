@@ -1,0 +1,152 @@
+header p {
+	font-family: arial;
+	float: left;
+	color: yellow;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+header nav {
+	float: right;
+}
+
+nav li {
+	padding-top:15px;
+	display: inline-block;
+	padding-right: 10px;
+	color: white; 
+	font-size: 18px;
+	font-family: arial;
+}
+
+header {
+	padding-left: 10px;
+	overflow: hidden;
+	background-color: black;
+	border-bottom: solid yellow;
+	border-width: 5px;
+}
+
+p {
+	text-align: center;
+}
+
+.brains {
+	display: block;
+	border-top: solid lightgray;
+	border-bottom: solid lightgray;
+	border-width: 4px;
+	background-color: lightgray;
+	color: black
+}
+
+#words {
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#taste {
+	color: gray;
+}
+
+#are {
+	text-decoration: underline;
+	text-decoration-color: ;
+}
+
+body {
+	background:url("img/coworking.jpg") no-repeat;
+	background-size: 100%;
+}
+
+#title {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+#top {
+	padding-left: 60%;
+	padding-right: 10%;
+}
+
+#all {
+	display: inline;
+}
+
+#title {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.createprofile {
+	background-color: yellow;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+section {
+	display: inline-block;
+	text-align: center;
+}
+
+#left {
+	border-right-style: solid;
+	padding-right: 30px;
+	border-right-color: lightgray;
+	width: 260px;
+}
+
+.signup {
+	background-color: lightgray;
+	font-weight: bold;
+}
+
+article {
+	background-color: white;
+	display: block;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	border-bottom-width: 10px;
+}
+
+#middle {
+	border-right-style: solid;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-right-color: lightgray;
+	width: 260px;
+	
+}
+
+#profile {
+	font-weight: bold;
+}
+
+.startsearch{
+	background-color: lightgray;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#right {
+	padding-left: 30px;
+	width: 260px;
+}
+
+
+footer {
+	background-color: black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#bottom {
+	width: 260px;
+	color: white;
+	font-size: 12px;
+}

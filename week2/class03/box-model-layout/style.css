@@ -1,0 +1,48 @@
+body {
+	padding: 100px;
+	margin: 0 auto;
+	width: 90%;
+	content-color: gray;
+}
+
+h1 {
+	color: white;
+	background-color: black;
+	text-align: center;
+
+}
+
+p {
+	background-color: orange;
+}
+
+.lorem1 {
+	color: blue;
+}
+
+.lorem2 {
+	color: green;
+}
+
+.lorem3 {
+	color: yellow;
+}
+
+
+
+
+.container {
+	background-color: gray;
+	/*height: 200px;*/
+	padding: 10px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.common {
+	width:90%;
+	height: 100px;
+	background-color: red;
+	margin: 10px;
+	Margin-left: 5%;
+}
