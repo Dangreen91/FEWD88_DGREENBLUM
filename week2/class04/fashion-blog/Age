@@ -1,0 +1,11 @@
+var age;
+var max_age;
+var drink;
+var num_per_day;
+
+document.getElementById('Click_Me').onclick = calculate 
+
+function calculate(){
+	age = parseInt(document.getElementById('age').value);
+	console.log(age);
+}
