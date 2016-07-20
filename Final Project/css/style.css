@@ -1,0 +1,50 @@
+img {
+  height: 125px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+ul {
+  position: absolute;
+  top: 105px;
+  left: 0px;
+  width: 100%;
+  padding-top:15px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: arial;
+  list-style-type: none;
+
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+    float: left;
+    padding: 10px 40px;
+
+}
+
+li a:hover {
+    background: rgba(129,195,65,1);
+    color: white;
+}
+
+section {
+  padding-top: 50px;
+}
+
+body {
+  background:url("http://www.mevee.com/images/press/mevee%20brings%20peace.jpg") no-repeat;
+  background-size: 100%;
+}
+
