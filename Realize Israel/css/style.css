@@ -1,0 +1,60 @@
+/*Realize Israel words*/
+header p {
+  font-family: cursive;
+  float: left;
+  font-size: 60px;
+  padding-left: 20px;
+  display: block;
+  color: white;
+  position: relative;
+  top: -60px;
+  left: -20px;
+  font-weight: bold;
+}
+
+
+header {
+  padding-left: 10px;
+  border-width: 5px;
+  text-align: center;
+}
+
+header nav {
+  float: right;
+}
+
+
+/* Unordered list */
+ul {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 100%;
+  padding-top:15px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: arial;
+  list-style-type: none;
+  text-align: center;
+
+}
+
+/* actual words in unordered list*/
+li a {
+    display: block;
+    text-decoration: none;
+    float: left;
+    padding: 10px 40px;
+    text-align: center;
+    background-color: rgba(240, 255, 255,.6);
+}
+
+li a:hover {
+    background: #133783;
+    color: white;
+}
+
+body {
+  background-image: url('../images/Tlv.jpg');
+  background-size: 100%;
+}

@@ -14,5 +14,6 @@
 // 7: Empty the input in #newEntry (clear it out)
 
 $(document).ready(function () {
-
+	userval = $('#newentry').val();
+	
 })
