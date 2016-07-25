@@ -1,3 +1,4 @@
+/*Realize Israel words*/
 p {
   font-family: 'Arvo', serif;
   float: left;
@@ -7,6 +8,16 @@ p {
   top: -70px;
   left: -20px;
   font-weight: bold;
+}
+
+#R {
+  font-size: 80px;
+  font-family: cursive;
+}
+
+#I {
+  font-size: 80px;
+  font-family: cursive;
 }
 
 header {
@@ -46,22 +57,15 @@ li a:hover {
 }
 
 ul {
-  display: inline-block;
-  list-style-type: none;
+	display: inline-block;
+	list-style-type: none;
 }
 
 
-#Home {
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
-  font-size: 60px;
-  left: 10%;
-  top: -185px;
-}
-
-body {
-  background-image: url('../images/WSP3.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+#About {
+  font-family: 'Eczar', serif;
+	font-size: 60px;
+	left: 10%;
+	top: -165px;
 }
 

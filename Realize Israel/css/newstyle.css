@@ -1,3 +1,4 @@
+/*Realize Israel words*/
 p {
   font-family: 'Arvo', serif;
   float: left;
@@ -12,6 +13,7 @@ p {
 header {
   padding-left: 10px;
   border-width: 5px;
+  text-align: center;
 }
 
 /* Unordered list */
@@ -46,22 +48,27 @@ li a:hover {
 }
 
 ul {
-  display: inline-block;
-  list-style-type: none;
+	display: inline-block;
+	list-style-type: none;
 }
 
 
-#Home {
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
-  font-size: 60px;
-  left: 10%;
-  top: -185px;
+/*#TOS {
+    width: 300px;
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 25px;
+    background-color: lightgray;
+}*/
+
+#News {
+	font-size: 60px;
+	left: 10%;
+	top: -165px;
 }
 
 body {
-  background-image: url('../images/WSP3.jpg');
-  background-size: 100%;
+	background-image: url('../images/news.jpg');
+	background-size: 100%;
   background-repeat: no-repeat;
 }
-

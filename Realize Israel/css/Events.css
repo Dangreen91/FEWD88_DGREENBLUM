@@ -51,17 +51,8 @@ ul {
 }
 
 
-#Home {
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
+#Events {
   font-size: 60px;
   left: 10%;
-  top: -185px;
+  top: -165px;
 }
-
-body {
-  background-image: url('../images/WSP3.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
