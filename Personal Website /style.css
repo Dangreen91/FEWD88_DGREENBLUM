@@ -1,0 +1,59 @@
+/* Unordered list */
+ul {
+  position: absolute;
+  top: 64px;
+  left: 90px;
+  width: 100%;
+  padding-top:15px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: arial;
+  list-style-type: none;
+  text-align: center;
+
+}
+
+/* actual words in unordered list*/
+li a {
+    display: block;
+    text-decoration: none;
+    float: left;
+    padding: 10px 40px;
+    text-align: center;
+    color: black;
+    background-color: rgba(64,128,255,.6);
+}
+
+li a:hover {
+    background: #133783;
+    color: white;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+body {
+	background-image: url('img/jump1.jpg'); 
+	background-size: 100%;
+  	background-repeat: no-repeat;
+}
+
+#Name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  top: 0px;
+}
+
+img {
+	text-align: center;
+	padding top: 100px;
+	height: 200px;
+    width: 100px;
+}
+
+
+

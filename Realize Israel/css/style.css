@@ -17,15 +17,14 @@ header {
 /* Unordered list */
 ul {
   position: absolute;
-  top: 64px;
-  left: 90px;
+  top: 5px;
+  left: 260px;
   width: 100%;
   padding-top:15px;
   display: inline-block;
   font-size: 16px;
   font-family: arial;
   list-style-type: none;
-  text-align: center;
 
 }
 
@@ -36,12 +35,12 @@ li a {
     float: left;
     padding: 10px 40px;
     text-align: center;
-    color: black;
-    background-color: rgba(64,128,255,.6);
+    color: white;
+    background-color: rgba(77,77,77,.7);
 }
 
 li a:hover {
-    background: #133783;
+    background: rgba(19,55,131,.8);
     color: white;
 }
 
@@ -52,7 +51,7 @@ ul {
 
 
 #Home {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico';
   font-weight: bold;
   font-size: 60px;
   left: 10%;
@@ -60,8 +59,10 @@ ul {
 }
 
 body {
-  background-image: url('../images/WSP3.jpg');
+  background-image: url('../images/WSP6.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+
 
