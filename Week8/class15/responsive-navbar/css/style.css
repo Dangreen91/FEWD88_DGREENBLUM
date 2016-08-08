@@ -60,6 +60,10 @@ header nav a {
 		float: none;
 	}
 
+	body a {
+		display: none;
+	}
+
 	#large-nav{
 		display: none;
 	}

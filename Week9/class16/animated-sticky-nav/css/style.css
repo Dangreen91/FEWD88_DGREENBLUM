@@ -1,0 +1,25 @@
+.wrapper {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	color: white;
+}
+
+body {
+	font-size: 16px;
+}
+
+header {
+	background: blue;
+	position: fixed;
+	width: 100%;
+	transition: all 0.5s;
+}
+
+.sticky {
+	background-color: gold;
+	color: black;
+	height: 100px;
+}

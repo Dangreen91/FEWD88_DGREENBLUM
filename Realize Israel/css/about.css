@@ -1,71 +1,83 @@
-/*Realize Israel words*/
-p {
-  font-family: 'Arvo', serif;
-  float: left;
-  font-size: 60px;
-  padding-left: 20px;
-  position: relative;
-  top: -70px;
-  left: -20px;
-  font-weight: bold;
-}
-
-#R {
-  font-size: 80px;
-  font-family: cursive;
-}
-
-#I {
-  font-size: 80px;
-  font-family: cursive;
-}
-
-header {
-  padding-left: 10px;
-  border-width: 5px;
-}
-
 /* Unordered list */
 ul {
   position: absolute;
-  top: 64px;
-  left: 90px;
+  top: 5px;
+  left: 260px;
   width: 100%;
   padding-top:15px;
   display: inline-block;
   font-size: 16px;
   font-family: arial;
   list-style-type: none;
-  text-align: center;
 
 }
 
 /* actual words in unordered list*/
 li a {
     display: block;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     float: left;
-    padding: 10px 40px;
+    padding: 5px 35px;
     text-align: center;
-    color: black;
-    background-color: rgba(64,128,255,.6);
-}
-
-li a:hover {
-    background: #133783;
     color: white;
+    background-color: rgba(77,77,77,.7);
 }
 
-ul {
-	display: inline-block;
-	list-style-type: none;
+/*hover color*/
+li a:hover {
+    background-color: rgba(19,55,131,.9);
 }
 
-
-#About {
-  font-family: 'Eczar', serif;
-	font-size: 60px;
-	left: 10%;
-	top: -165px;
+/*fading the logo*/ 
+body a:hover {
+  opacity: 0.6;
 }
 
+/*Page name highlighted*/ 
+.About {
+  background: rgba(19,55,131,1);
+  border-color: black;
+  color: white;
+}
+
+/*background image*/ 
+body {
+  background-image: url(../images/RIBoard.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#burger {
+  display: none;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+#mobile-nav a {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 980px){
+    
+    #burger{
+      display: block;
+      float: right;
+      background-color: black;
+    }
+
+    #large-nav{
+      display: none;
+    }
+
+    #mobile-nav a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+}

@@ -1,74 +1,146 @@
-/*Realize Israel words*/
-p {
-  font-family: 'Arvo', serif;
-  float: left;
-  font-size: 60px;
-  padding-left: 20px;
-  position: relative;
-  top: -70px;
-  left: -20px;
-  font-weight: bold;
-}
-
-header {
-  padding-left: 10px;
-  border-width: 5px;
-  text-align: center;
-}
-
 /* Unordered list */
 ul {
   position: absolute;
-  top: 64px;
-  left: 90px;
+  top: 5px;
+  left: 18%;
   width: 100%;
-  padding-top:15px;
+  padding-top:13%;
   display: inline-block;
   font-size: 16px;
   font-family: arial;
   list-style-type: none;
-  text-align: center;
-
 }
 
 /* actual words in unordered list*/
 li a {
     display: block;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     float: left;
-    padding: 10px 40px;
+    padding: 5px 35px;
     text-align: center;
-    color: black;
-    background-color: rgba(64,128,255,.6);
+    color: white;
+    background-color: rgba(77,77,77,.7);
 }
 
+/*hover color*/
 li a:hover {
-    background: #133783;
+    background: rgba(19,55,131,.8);
     color: white;
 }
 
-ul {
-	display: inline-block;
-	list-style-type: none;
+/*fading the logo*/ 
+body a:hover {
+  opacity: 0.6;
 }
 
+.News {
+  background: rgba(19,55,131,.8);
+  border-color: black;
+  color: white;
+}
 
-/*#TOS {
-    width: 300px;
-    font-size: 30px;
-    border: 5px solid black;
-    padding: 25px;
-    background-color: lightgray;
+/*background image*/ 
+body {
+  background-image: url('../Images/newspaper.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: black;
+}
+
+#Articles {
+    height: 450px; /* or any value */
+    overflow-y: auto;
+    position: absolute;
+    top: 34.5%;
+    left: 30%;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.lines {
+  border-style: solid;
+  border-width: 5px;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/*#links p {
+  position: absolute;
+  left: 76.5%;
+  top: 30.5%;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 24px;
+  padding-right: 17px;
+  padding-bottom: 10%;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 10px;
 }*/
 
-#News {
-	font-size: 60px;
-	left: 10%;
-	top: -165px;
+/*div #links {
+  border-style: solid;
+  border-width: 3px;
+}*/
+
+/*#Insta p {
+  position: absolute;
+  left: 76.5%;
+  top: 60%;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 24px;
+  padding-right: 17px;
+  padding-bottom: 10%;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 10px;
+}*/
+
+/*div #Insta {
+  border-style: solid;
+  border-width: 3px;
+}*/
+
+#burger {
+  display: none;
 }
 
-body {
-	background-image: url('../images/news.jpg');
-	background-size: 100%;
-  background-repeat: no-repeat;
+#mobile-nav {
+  display: none;
+}
+
+/*#mobile-nav a {
+  display: block;
+  color: white;
+  text-align: center;
+}*/
+
+@media screen and (max-width: 980px){
+  
+  #burger{
+    display: block;
+    float: right;
+  }
+
+  #large-nav{
+    display: none;
+  }
+
+  #mobile-nav{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
 }

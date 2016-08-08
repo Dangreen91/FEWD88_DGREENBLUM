@@ -2,41 +2,101 @@
 <html>
 <head>
 	<title>Realize</title>
-	<link rel="stylesheet" type="text/css" href="css/Contact.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" type="text/css" href="images/Logo.jpg">
 	<link rel="stylesheet" type="text/css" href="https://fonts.google.com/?selection.family=Mirza|Slabo+27px">
 </head>
 
 <body>
-	<a href="index.html"><img src="images/Logo.jpg" alt="Realize Logo" style="width: 10%;height: 15%" ></a>
-		<nav> <p id="Contact">Contact</p>
+	<a href="index.html"><img src="images/Logo2.jpg" alt="Realize Logo" style="width: 280px;height: 140px" ></a>
+		<nav id="large-nav">
 			<ul>
 				
 				<li>
-				<a href= About.html class="About">About</a></li>
+				<a href= About.html class="About">About</a>
+				</li>
+				
+				<li>
+				<a href= Events.html class="Events">Events</a>
+				</li>
+				
+				<li><a href= news.html class="News">News</a>
+				</li>
+				
+				<li><a href= Photos.html class="Photos">Photos/Videos</a>
+				</li>
+
+				<li>
+				<a href="Contact.html" class="Contact">Contact</a>
+				</li>
+
+			</ul>
+		</nav>
+		<div id="burger">
+					<img src="images/hamburger-icon.png" alt="">
+				</div>
+		<nav id="mobile-nav">
+			<ul>
+				
+				<li>
+				<a href= About.html class="About">About</a>
+				</li>
 				
 				<li>
 				<a href= Events.html class="Events">Events</a>
 				</li>
 				
 				<li>
-				<a class="Contact">Contact</a>
-				</li>
-				
-				<li>
 				<a href= news.html class="Israel News">News</a></li>
 				
-				<li><a class="Social Media">Social Media</a>
+				<li><a href= Photos.html class="Photos">Photos</a>
 				</li>
-				
-				<li><a class="Photos">Photos</a></li>
+
+				<li>
+				<a href="Contact.html" class="Contact">Contact</a>
+				</li>
 
 			</ul>
 		</nav>
 
-</header>
-</body>
 
-<script type="text/javascript" src="script.js"></script>
+
+		<div class="wrapper">
+		
+		<form id="myForm">
+			<h1>Contact Us</h1>
+
+			<h2>First Name</h2> <input type="text" id="firstname-input" placeholder="Enter First Name">
+			
+			<h2>Last Name </h2><input type="text" id="lastname-input" placeholder="Enter Last Name">
+
+			<h2>Email </h2><input type="text" id="Email-input" placeholder="Enter Email">
+
+			<h2>Comment</h2><textarea rows="10" name="Comment" id="Comment-input" placeholder="Enter Comment"></textarea>
+
+			<!-- <h2>Comment</h2><input type="text" id="Comment-input" placeholder="Enter Comment"> -->
+
+			<h2>Would you like to join our list serve?
+			<select id="question">
+				<option value="1">Yes</option>
+				<option value="2">No</option>
+			</select></h2>
+
+			<button id="click-me">Enter</button>
+
+			<h3>solution <span id="solution"> </span> more </h3>
+
+			</form>
+		<div id="target"></div>
+		</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="app.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="JavaScript/Contact.js"></script>
 	
 </body>
+
+</html>
