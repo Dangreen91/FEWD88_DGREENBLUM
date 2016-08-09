@@ -45,6 +45,14 @@ body a:hover {
   opacity: 0.6;
 }
 
+div img {
+  height: 400px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 #Rave iframe {
   margin-left: auto;
   margin-right: auto;

@@ -61,16 +61,17 @@ iframe {
     top: 34.5%;
     left: 30%;
     border-style: solid;
-    border-width: 5px;
+    border-width: 10px;
 }
 
 .lines {
+  font-size: 20px;
   border-style: solid;
-  border-width: 5px;
-  border-top: 2px;
-  border-bottom: 2px;
-  border-left: 2px;
-  border-right: 2px;
+  border-width: 10px;
+  border-top: 50px;
+  border-bottom: 5px;
+  border-left: 5px;
+  border-right: 5px;
   background-color: black;
   color: white;
   text-align: center;
